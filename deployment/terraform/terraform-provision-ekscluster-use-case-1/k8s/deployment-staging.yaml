@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prodxcloud-store-staging
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: prodxcloud-store-staging
+  template:
+    metadata:
+      labels:
+        app: prodxcloud-store-staging
+    spec:
+      containers:
+      - name: prodxcloud-store-staging
+        image: joelwembo/prodxcloud-store:staging
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80

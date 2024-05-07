@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prodxcloud-store-qa
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: prodxcloud-store-qa
+  template:
+    metadata:
+      labels:
+        app: prodxcloud-store-qa
+    spec:
+      containers:
+      - name: prodxcloud-store-qa
+        image: joelwembo/prodxcloud-store:qa
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 80
