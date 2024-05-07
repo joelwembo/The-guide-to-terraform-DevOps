@@ -7,6 +7,9 @@ This technical handbook offers a comprehensive guide on implementing CI/CD Pipel
 - [@Joel O. Wembo](https://www.joelotepawembo.com)
 - [@twitter](twitter.com/joelwembo1)
 - [@linkedin](https://www.linkedin.com/in/joelotepawembo)
+- More links:
+  [@The Guide to Terraform DevOps: Kubernetes Tools in Infrastructure as Code (IaC)] (https://towardsaws.com/the-guide-to-terraform-devops-kubernetes-tools-e39f2fc6b554)
+  [@The Guide to Terraform DevOps: Implementing CI/CD Pipelines for EKS workloads with GitHub Actions for Multi-Environments Approach] (https://towardsaws.com/the-guide-to-terraform-devops-implementing-ci-cd-pipelines-for-eks-workloads-with-github-actions-b6a08cc984b0)
 
 
 ### Prerequisites:
@@ -375,6 +378,8 @@ Thank you for Reading !! 🙌🏻, see you in the next article.🤘
 - [@Joel O. Wembo](https://www.joelotepawembo.com)
 - [@twitter](twitter.com/joelwembo1)
 - [@linkedin](https://www.linkedin.com/in/joelotepawembo)
-
+- More links:
+  [@The Guide to Terraform DevOps: Kubernetes Tools in Infrastructure as Code (IaC)] (https://towardsaws.com/the-guide-to-terraform-devops-kubernetes-tools-e39f2fc6b554)
+  [@The Guide to Terraform DevOps: Implementing CI/CD Pipelines for EKS workloads with GitHub Actions for Multi-Environments Approach] (https://towardsaws.com/the-guide-to-terraform-devops-implementing-ci-cd-pipelines-for-eks-workloads-with-github-actions-b6a08cc984b0)
 
 
