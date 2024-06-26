@@ -11,9 +11,26 @@ This technical handbook offers a comprehensive guide on implementing CI/CD Pipel
   [@The Guide to Terraform DevOps: Kubernetes Tools in Infrastructure as Code (IaC)] (https://towardsaws.com/the-guide-to-terraform-devops-kubernetes-tools-e39f2fc6b554)
   [@The Guide to Terraform DevOps: Implementing CI/CD Pipelines for EKS workloads with GitHub Actions for Multi-Environments Approach] (https://towardsaws.com/the-guide-to-terraform-devops-implementing-ci-cd-pipelines-for-eks-workloads-with-github-actions-b6a08cc984b0)
 
+  To enhance readability, this handbook is divided into chapters and split into parts. The first, part, “A step-by-step guide for AWS EC2 provisioning using Terraform: HA, ALB, VPC, and Route53 — Part 1”, and the second part “A step-by-step guide for AWS EC2 provisioning using Terraform: HA, CloudFront, WAF, and SSL Certificate — Part 2”, and “A step-by-step guide for AWS EC2 provisioning using Terraform: Cloud Cost Optimization, AWS EC2 Spot Instances, CloudWatch, SNS, Lambda — Part 3”, was covered in a separate article to keep the reading time manageable and ensure focused content. The next part or chapter will be published in the next post, upcoming in a few days, “A step-by-step guide for AWS EC2 provisioning using Terraform: VPC peering, VPN, Site-to-site Connection, tunnels ( multi-Cloud ) — Part 12“ and so much more !!
+
+🌟Upcoming Next !!
+https://joelotepawembo.medium.com/the-guide-to-terraform-devops-aws-ec2-instance-using-iac-9e39075a48fb
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: Azure VM and Networking (multi-cloud preparations) - Part 4
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: Terraform Error locking state error acquiring the state lock - Part 5
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: remote-exec Provisioner & user data - Part 6
+🚀A step-by-step guide for AWS EC2 provisioning using Terraform: AWS EC2 Pricing - Part 7
+🚀A step-by-step guide for AWS EC2 provisioning using Terraform: Automating aws ec2 ubuntu AMIs using terraform aws_ami data source - Part 8
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: EC2 Auto scaling using Terraform for high availability and resource optimization - Part 9
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: Deploying React with NGINX to EC2 using GitHub Actions (end-to-end CI/CD pipeline ) - Part 10
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: EC2 and Compliance - Part 11
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: VPN, VPC peering, Site-to-site Connection, tunnels, AWS VPN, Azure VPN client & Gateway (multi-cloud) using Terraform - Part 12
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: Azure and AWS VPN Site-to-site Connection for EC2 (multi-cloud) using Terraform - Part 13
+🚀 A step-by-step guide for AWS EC2 provisioning using Terraform: How to set up SSM ( AWS Systems Manager ) for EC2? - Part 14
+and Much More …
+
 
 ### Prerequisites:
-Before we get into the good stuff, first we need to make sure we have the required services on our local machine or dev server, which are:
+Before we get into the good stuff, we first need to make sure we have the required services on our local machine or dev server, which are:
 
 - AWS Account
 - GitHub Account
@@ -381,5 +398,6 @@ Thank you for Reading !! 🙌🏻, see you in the next article.🤘
 - More links:
   [@The Guide to Terraform DevOps: Kubernetes Tools in Infrastructure as Code (IaC)] (https://towardsaws.com/the-guide-to-terraform-devops-kubernetes-tools-e39f2fc6b554)
   [@The Guide to Terraform DevOps: Implementing CI/CD Pipelines for EKS workloads with GitHub Actions for Multi-Environments Approach] (https://towardsaws.com/the-guide-to-terraform-devops-implementing-ci-cd-pipelines-for-eks-workloads-with-github-actions-b6a08cc984b0)
+  - Email : contact@joelwembo.com
 
 
