@@ -5,7 +5,7 @@
 		 	"Effect": "Allow",
 	     	"Principal": "*",
 			"Action": "s3:GetObject",
-			"Resource": "arn:aws:s3:::socialcloudsync.com/*",
+			"Resource": "arn:aws:s3:::prodxcloud.io/*",
 			"Condition": {
 				"StringEquals": {
 					"aws:SourceArn": "arn:aws:cloudfront::xxx:distribution/E2SZ49FXEKL75W"
@@ -22,7 +22,7 @@
 // 		 	"Effect": "Allow",
 // 	     	"Principal": "*",
 // 			"Action": "s3:GetObject",
-// 			"Resource": "arn:aws:s3:::socialcloudsync.com/*"
+// 			"Resource": "arn:aws:s3:::prodxcloud.io/*"
 // 		}
 // 	]
 // }

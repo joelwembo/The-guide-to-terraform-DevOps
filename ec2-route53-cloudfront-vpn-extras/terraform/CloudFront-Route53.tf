@@ -32,7 +32,7 @@ output "prodxcloud_io_ZoneID" {
 resource "aws_acm_certificate" "acm_ssl" {
   provider                  = aws.use_default_region
   domain_name               = var.domain_name
-  subject_alternative_names = ["*.socialcloudsync.com", "www.socialcloudsync.com"]
+  subject_alternative_names = ["*.prodxcloud.io", "www.prodxcloud.io"]
   validation_method         = "EMAIL"
 
 
@@ -91,7 +91,7 @@ resource "aws_cloudfront_distribution" "cloudfront_ec2_instance_1" {
   is_ipv6_enabled     = true
   default_root_object = "index.html"
 
-  aliases = ["socialcloudsync.com", "www.socialcloudsync.com", "*.socialcloudsync.com"]
+  aliases = ["prodxcloud.io", "www.prodxcloud.io", "*.prodxcloud.io"]
 
 
   default_cache_behavior {
@@ -131,7 +131,7 @@ resource "aws_cloudfront_distribution" "cloudfront_ec2_instance_1" {
   }
 
   tags = {
-    Name = "socialcloudsync.com-distribution"
+    Name = "prodxcloud.io-distribution"
   }
 
   depends_on = [ aws_instance.prodxcloud-lab-1 ]
@@ -143,7 +143,7 @@ resource "aws_cloudfront_distribution" "cloudfront_ec2_instance_1" {
 # Define Route53 record for the domain representing cloudfront app
 resource "aws_route53_record" "example" {
   zone_id =aws_route53_zone.prodxcloud_io_zone_1.id
-  name    = "socialcloudsync.com"
+  name    = "prodxcloud.io"
   type    = "A"
 
   alias {
@@ -156,7 +156,7 @@ resource "aws_route53_record" "example" {
 # Define Route53 record for www
 resource "aws_route53_record" "www" {
   zone_id = aws_route53_zone.prodxcloud_io_zone_1.id
-  name    = "www.socialcloudsync.com"
+  name    = "www.prodxcloud.io"
   type    = "A"
 
   alias {
@@ -170,7 +170,7 @@ resource "aws_route53_record" "www" {
 # Define Route53 wildcard record
 resource "aws_route53_record" "wildcard" {
   zone_id = aws_route53_zone.prodxcloud_io_zone_1.id
-  name    = "*.socialcloudsync.com"
+  name    = "*.prodxcloud.io"
   type    = "A"
 
   alias {
@@ -180,7 +180,7 @@ resource "aws_route53_record" "wildcard" {
   }
 }
 
-# Route53 record for ec2.socialcloudsync.com to the public IP of the EC2 instance A
+# Route53 record for ec2.prodxcloud.io to the public IP of the EC2 instance A
 resource "aws_route53_record" "ec2-record" {
   zone_id =   aws_route53_zone.prodxcloud_io_zone_1.id
   name    =  var.custom_domain_1
@@ -191,7 +191,7 @@ resource "aws_route53_record" "ec2-record" {
   depends_on = [ aws_instance.prodxcloud-lab-1]
 }
 
-# Route53 record for studio.socialcloudsync.com to the public IP of the EC2 instance B
+# Route53 record for studio.prodxcloud.io to the public IP of the EC2 instance B
 # resource "aws_route53_record" "ec2-studio-record" {
 #   zone_id =   aws_route53_zone.prodxcloud_io_zone_1.id
 #   name    = var.custom_domain_2
@@ -206,7 +206,7 @@ resource "aws_route53_record" "ec2-record" {
 # Route53 record for our static front-end app after completing with bucket and cloudfront
 resource "aws_route53_record" "wildcard-dev" {
   zone_id = aws_route53_zone.prodxcloud_io_zone_1.id
-  name    = "dev.socialcloudsync.com"
+  name    = "dev.prodxcloud.io"
   type    = "A"
 
   alias {

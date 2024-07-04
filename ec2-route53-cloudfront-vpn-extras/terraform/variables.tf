@@ -15,39 +15,39 @@ variable "backend_worspaces" {
 
 variable "domain_name" {
   description = "The domain name for Route 53"
-  default     = "socialcloudsync.com"
+  default     = "prodxcloud.io"
 }
 
 variable "custom_domain_1" {
   description = "Lab / Studio custom domain for our ec2 services"
-  default = "studio.socialcloudsync.com"
+  default = "studio.prodxcloud.io"
 }
 
 variable "custom_domain_2" {
   description = "Lab / Studio custom domain for our ec2 services"
-  default = "ec2.socialcloudsync.com"
+  default = "ec2.prodxcloud.io"
 }
 
 variable "custom_domain_3" {
   description = "Lab / Studio custom domain for our ec2 services"
-  default = "qa.socialcloudsync.com"
+  default = "qa.prodxcloud.io"
 }
 
 variable "custom_domain_4" {
   description = "Lab / Studio custom domain for our ec2 services"
-  default = "dev.socialcloudsync.com"
+  default = "dev.prodxcloud.io"
 }
 
 
 # S3 bucket name for site 1
 variable "site_bucket_name_1" {
   description = "react website website running under cloudfront"
-  default = "dev.socialcloudsync.com"
+  default = "dev.prodxcloud.io"
 }
 
 # S3 bucket name for site 2
 variable "site_bucket_name_2" {
-  default = "qa.socialcloudsync.com"
+  default = "qa.prodxcloud.io"
 }
 
 variable "domain_name_ZoneID" {

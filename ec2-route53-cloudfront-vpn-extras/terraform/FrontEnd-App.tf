@@ -70,7 +70,7 @@ resource "aws_cloudfront_distribution" "cdn_static_website" {
   }
 
 
-  aliases = ["dev.socialcloudsync.com"]
+  aliases = ["dev.prodxcloud.io"]
 
   default_cache_behavior {
     min_ttl                = 0
