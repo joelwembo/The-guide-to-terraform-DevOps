@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+ kind: Deployment
+ metadata: 
+   name: infrastructure-service 
+   spec: 
+   replicas: 2 
+   selector: 
+     matchLabels: 
+       app: infrastructure-service 
+   template: 
+     metadata: 
+       labels: 
+         app: infrastructure-service   
+     spec: 
+       containers: 
+         - name: infrastructure-service 
+           image: infrastructure-service 
+           imagePullPolicy: Never 
+           ports: 
+             - containerPort: 5000 
+               protocol: TCP 

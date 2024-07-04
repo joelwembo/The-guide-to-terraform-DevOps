@@ -1,0 +1,7 @@
+# [submodule "terraform/terraform-aws-serverless-rest-api-dynamodb"]
+# 	path = terraform/terraform-aws-serverless-rest-api-dynamodb
+# 	url = https://github.com/joelwembo/terraform-aws-serverless-rest-api-dynamodb.git
+
+# [submodule "prodxcloud-terraform-github-actions"]
+# 	path = terraform/aws/prodxcloud-terraform-github-actions
+# 	url = https://github.com/joelwembo/prodxcloud-terraform-github-actions.git
