@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ClashGroteskSemibold';
+    src: url('../fonts/ClashGroteskSemibold.eot');
+    src: url('../fonts/ClashGroteskSemibold.eot') format('embedded-opentype'),
+         url('../fonts/ClashGroteskSemibold.woff2') format('woff2'),
+         url('../fonts/ClashGroteskSemibold.woff') format('woff'),
+         url('../fonts/ClashGroteskSemibold.ttf') format('truetype'),
+         url('../fonts/ClashGroteskSemibold.svg#ClashGroteskSemibold') format('svg');
+}
